@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5580990959148666660}
   - component: {fileID: 5580990959148666661}
   - component: {fileID: 5580990959148666662}
+  - component: {fileID: 294667666009368887}
+  - component: {fileID: 490241388691766586}
   m_Layer: 0
   m_Name: SingleCheckpoint
   m_TagString: Untagged
@@ -49,7 +51,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5580990959148666656}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -97,3 +99,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!111 &294667666009368887
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5580990959148666656}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 23aa8535e1ad96e428223a59ab0b92f5, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 23aa8535e1ad96e428223a59ab0b92f5, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &490241388691766586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5580990959148666656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3fa413f2f399894d97599ad81cdff5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
